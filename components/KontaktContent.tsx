@@ -8,6 +8,8 @@ import {
   PHONE_1_HREF,
   PHONE_2,
   PHONE_2_HREF,
+  EMAIL,
+  EMAIL_HREF,
   TERRITORY,
   WORKING_HOURS,
 } from "@/lib/constants";
@@ -130,6 +132,23 @@ export default function KontaktContent() {
                     </div>
                   </motion.a>
 
+                  {/* Email */}
+                  <motion.a
+                    variants={cardItem}
+                    href={EMAIL_HREF}
+                    className="flex items-center gap-4 bg-white rounded-xl p-4 border border-slate-100 shadow-sm hover:shadow-md transition-shadow group"
+                    whileHover={{ x: 4 }}
+                    transition={{ duration: 0.18 }}
+                  >
+                    <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-orange-200 transition-colors">
+                      <EmailIcon className="text-orange-500" />
+                    </div>
+                    <div>
+                      <p className="text-xs text-slate-500 mb-0.5">Email</p>
+                      <p className="font-bold text-[#1a3a6b]">{EMAIL}</p>
+                    </div>
+                  </motion.a>
+
                   {/* Location */}
                   <motion.div
                     variants={cardItem}
@@ -229,6 +248,14 @@ function ClockIcon({ className }: { className?: string }) {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" className={className}>
       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z" />
+    </svg>
+  );
+}
+
+function EmailIcon({ className }: { className?: string }) {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" className={className}>
+      <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
     </svg>
   );
 }

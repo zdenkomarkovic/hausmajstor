@@ -14,5 +14,7 @@ export const PHONE_1 = "061/411 36 36";
 export const PHONE_2 = "061/411 30 40";
 export const PHONE_1_HREF = "tel:+38161411 3636";
 export const PHONE_2_HREF = "tel:+381614113040";
+export const EMAIL = "todorovicbatica7@gmail.com";
+export const EMAIL_HREF = "mailto:todorovicbatica7@gmail.com";
 export const TERRITORY = "Beograd / Pančevo";
 export const WORKING_HOURS = "00h - 24h";
