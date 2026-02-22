@@ -23,7 +23,7 @@ export const services: Service[] = [
     title: "Vodoinstalaterski radovi",
     shortDesc:
       "Popravka i ugradnja vodovoda i odvoda, slavina, bojlera, toaleta. Otklanjanje curenja i začepljenja.",
-    longDesc: `Naš iskusni vodoinstalater Pančevo i Beograd obavlja sve vrste vodoinstalaterskih radova brzo i kvalitetno. Bilo da se radi o hitnoj intervenciji zbog puknutog ceva ili planiranoj ugradnji novog vodovoda, tu smo za vas 0-24h.
+    longDesc: `Naš iskusni vodoinstalater Beograd obavlja sve vrste vodoinstalaterskih radova brzo i kvalitetno. Bilo da se radi o hitnoj intervenciji zbog puknutog creva ili planiranoj ugradnji novog vodovoda, tu smo za vas 0-24h.
 
 Nudimo kompletnu uslugu od dijagnostike do popravke: zamena dotrajalih cevi, ugradnja novih slavina i baterija, otklanjanje začepljenja odvoda, popravka i ugradnja toaleta, te servis i ugradnja bojlera. Posebno smo specijalizovani za hitnu vodoinstalatersku intervenciju kada svaki minut ima značaj.
 
@@ -42,9 +42,9 @@ Radimo na objektima u Pančevu i Beogradu, stambenim i poslovnim. Koristimo kval
     ],
     faq: [
       {
-        question: "Koliko košta vodoinstalater Pančevo?",
+        question: "Koliko košta vodoinstalaterska usluga?",
         answer:
-          "Cena vodoinstalaterskih radova zavisi od vrste posla. Dolazak i dijagnostika su besplatni u Pančevu i Beogradu. Pozovite nas za besplatnu procenu.",
+          "Cena vodoinstalaterskih radova zavisi od vrste posla i broja sati utrošenih za konkretan posao. Pozovite nas radi otklanjanja problema i procene.",
       },
       {
         question: "Da li radite hitne intervencije noću?",

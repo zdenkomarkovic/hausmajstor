@@ -1,7 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { PHONE_1, PHONE_1_HREF, PHONE_2, PHONE_2_HREF, TERRITORY, WORKING_HOURS } from "@/lib/constants";
+import {
+  PHONE_1,
+  PHONE_1_HREF,
+  PHONE_2,
+  PHONE_2_HREF,
+  TERRITORY,
+  WORKING_HOURS,
+} from "@/lib/constants";
 
 // 3 cards enter from: left, bottom, right
 const cardInitials = [
@@ -25,12 +32,9 @@ export default function Contact() {
           <span className="inline-block text-orange-400 font-semibold text-sm uppercase tracking-wider mb-3">
             Kontakt
           </span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Pozovite nas odmah
-          </h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Pozovite nas odmah</h2>
           <p className="text-blue-200 max-w-xl mx-auto text-lg">
-            Dostupni smo {WORKING_HOURS}, svaki dan. Brza intervencija na
-            teritoriji {TERRITORY}.
+            Dostupni smo {WORKING_HOURS}, svaki dan. Brza intervencija na teritoriji {TERRITORY}.
           </p>
         </motion.div>
 
@@ -101,12 +105,9 @@ export default function Contact() {
             delay: 0.15,
           }}
         >
-          <h3 className="text-white font-bold text-2xl sm:text-3xl mb-3">
-            Hitna intervencija?
-          </h3>
+          <h3 className="text-white font-bold text-2xl sm:text-3xl mb-3">Hitna intervencija?</h3>
           <p className="text-orange-100 text-lg mb-8 max-w-lg mx-auto">
-            Pukla vam cev? Nema struje? Pokvarilo se grejanje? Zovite odmah —
-            dolazimo brzo!
+            Pukla vam je cev? Nema struje? Pokvarilo se grejanje? Zovite odmah — dolazimo brzo!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
